@@ -1,4 +1,4 @@
-// Functiosn are first class citizens in Javascript
+// Functions are first class citizens in Javascript
 // They can be treated like any other value in Javascript
 
 // 1) Assigned to a variable
