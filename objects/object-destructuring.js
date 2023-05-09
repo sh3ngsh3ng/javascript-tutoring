@@ -18,6 +18,7 @@ console.log(a)
 console.log(t)
 console.log(details)
 
+/// Object destructuring example
 let rectangle = {
     length: 10,
     breadth: 20,
