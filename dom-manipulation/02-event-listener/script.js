@@ -25,7 +25,10 @@ btn.addEventListener('click', function() {
 // .....
 
 // Mouseover
-let targetTag = document.querySelector("#text")
-targetTag.addEventListener('mouseover', function() {
+document.querySelector("#text").addEventListener('mouseover', function() {
+    // while (true) {
+    //     alert('U are hovering over me!')
+    // }
     alert('U are hovering over me!')
 })
+
