@@ -35,4 +35,5 @@ let pTags = document.querySelectorAll("p") // -> array of node object
 for (let x of pTags) {
     x.style.backgroundColor = 'red'
     x.style.fontSize = '30px'
+    x.style.color = 'yellow'
 }
