@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>FORMS</h1>
+    <div>
+        <label>Name: </label>
+        <input id="name" type="text"/>
+    </div>
+    <div>
+        <span>Gender: </span>
+        <input class="gender" value="male" name="gender" type="radio"/><label>M</label>
+        <input class="gender" value="female" name="gender" type="radio"/><label>F</label>
+        <input class="gender" value="unspecified" name="gender" type="radio"/><label>Unspecified</label>
+    </div>
+    <div>
+        <span>Hobby: </span><br>
+        
+        <input class="hobby" type="checkbox" value="swimming"/><label >Swimming</label><br>
+        <input class="hobby" type="checkbox" value="reading"/><label >Reading</label><br>
+        <input class="hobby" type="checkbox" value="cycling"/><label >Cycling</label>
+    </div>
+    <div>
+        <span>Country: </span>
+        <select id="dropdown">
+            <option value="sg">Singapore</option>
+            <option value="my">Malaysia</option>
+            <option value="th">Thailand</option>
+            <option value="ch">China</option>
+        </select>
+    </div>
+
+    <div>
+        <span>Tell me about yourself!</span><br>
+        <textarea id="intro"></textarea>
+    </div>
+
+    <div>
+        <button id="btn">Click</button>
+    </div>
+
+    <div>
+        <input type="date">
+    </div>
+
+    <div>
+        <input type="range">
+    </div>
+
+    
+    <script src="./script.js"></script>
+</body>
+</html>
