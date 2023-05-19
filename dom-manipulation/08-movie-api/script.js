@@ -1,6 +1,5 @@
 document.querySelector("#search").addEventListener('click', async function() {
     let userInputTitle = document.querySelector("#input").value
-
     let userInputType = document.querySelector(".type:checked").value
 
     let response = await axios.get("https://www.omdbapi.com/", {
@@ -10,7 +9,6 @@ document.querySelector("#search").addEventListener('click', async function() {
             type: userInputType
         }
     })
-
 
     let outputLocation = document.querySelector("#output")
     outputLocation.innerHTML = 
