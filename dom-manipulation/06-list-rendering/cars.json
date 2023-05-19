@@ -1,0 +1,17 @@
+[
+    {
+        "car_model": "Toyota Vios",
+        "car_brand": "Toyota",
+        "price": 100000
+    },
+    {
+        "car_model": "Mercedes Sports 500",
+        "car_brand": "Mercedes",
+        "price": 1000000
+    },
+    {
+        "car_model": "Lamborghini Version 4",
+        "car_brand": "Lamborghini",
+        "price": 1000000
+    }
+]
