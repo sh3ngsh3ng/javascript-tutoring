@@ -1,0 +1,17 @@
+[
+    {
+        "field": "Technology",
+        "roles": ["Software Engineer", "Software Tester"],
+        "pay": 10000
+    },
+    {
+        "field": "Education",
+        "roles": ["Teacher", "Private Tutor"],
+        "pay": 8000
+    },
+    {
+        "field": "Food",
+        "roles": ["Chef", "Critic"],
+        "pay": 20000
+    }
+]
